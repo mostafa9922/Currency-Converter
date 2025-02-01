@@ -1,0 +1,33 @@
+.header .logo {
+  width: 120px;
+}
+
+.header {
+  height: 15vh;
+}
+
+.header .logo {
+  transition: transform 0.5s ease;
+}
+
+.header .logo:hover {
+  transform: scale(0.8);
+}
+
+.page {
+  height: 85vh;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+.inputData img {
+  cursor: pointer;
+}
+select {
+  background-image: url("https://flagsapi.com/AE/shiny/32.png");
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: 2%;
+}

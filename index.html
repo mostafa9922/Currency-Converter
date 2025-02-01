@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/bootstrap.css" />
+    <link rel="stylesheet" href="CSS/master.css" />
+    <title>Currency-Converter</title>
+  </head>
+  <body>
+    <div
+      class="header bg-black d-flex justify-content-around align-items-center p-3 w-100"
+    >
+      <div class="logo">
+        <img src="nav-banner.png" alt="" class="w-100 h-100 rounded" />
+      </div>
+      <div class="title text-warning fw-bold fs-4">Currency-Converter</div>
+    </div>
+    <div class="page d-flex justify-content-around align-items-center">
+      <div
+        class="main bg-warning-subtle h-75 w-75 p-5 d-flex flex-column justify-content-around align-items-center"
+      >
+        <p class="w-100 text-start fs-4 m-0">Amount</p>
+        <div
+          class="inputData w-100 d-flex justify-content-around align-items-center border-bottom border-primary border-3 p-1"
+        >
+          <input
+            type="text"
+            class="w-100 bg-warning-subtle"
+            placeholder="1 By Default"
+          />
+          <div class="icon">
+            <img src="exchange.png" alt="" />
+          </div>
+        </div>
+        <select name="" id="" class="op1 w-75 p-2 ps-5"></select>
+        <select name="" id="" class="op2 w-75 p-2 ps-5"></select>
+        <button type="button" class="btn btn-secondary w-75">Convert</button>
+        <p class="result fs-3 text-black fw-bold">1 AED = 1 AED</p>
+      </div>
+    </div>
+
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="master.js"></script>
+  </body>
+</html>
