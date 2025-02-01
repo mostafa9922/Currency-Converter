@@ -165,13 +165,13 @@ for (let x in COUNTRY_NAMES) {
   options2.innerHTML += `<option value="${x}">${x} || ${COUNTRY_NAMES[x]}</option>`;
 }
 
-options1.addEventListener("click", () => {
+options1.addEventListener("change", () => {
   options1.style.cssText = `background-image: url("https://flagsapi.com/${options1.value.slice(
     0,
     2
   )}/shiny/32.png");`;
 });
-options2.addEventListener("click", () => {
+options2.addEventListener("change", () => {
   options2.style.cssText = `background-image: url("https://flagsapi.com/${options2.value.slice(
     0,
     2
