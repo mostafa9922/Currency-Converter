@@ -208,7 +208,7 @@ function calc() {
       response.json().then((data) => {
         value = data.conversion_rates[options2.value];
         result.innerHTML = `${input.value || 1} ${options1.value} = ${
-          (+input.value || 1) * value
+          (+input.value || 1) * value.toFixed(4)
         } ${options2.value}`;
       });
     });
